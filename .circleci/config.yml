@@ -12,7 +12,11 @@ orbs:
     commands: 
       dospecialthings:
         steps:
-          - run: echo "Some Special Things"
+          - run: |
+          a=10
+          b=10
+          c=a+b
+          echo $c
     jobs:
       myjob:
         executor: specialthingsexecutor
