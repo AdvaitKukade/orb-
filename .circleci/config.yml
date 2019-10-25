@@ -13,8 +13,8 @@ orbs:
       dospecialthings:
         steps:
           - run: |
-          c=10+10
-          echo $c
+          echo "Hello"
+          echo "World" 
     jobs:
       myjob:
         executor: specialthingsexecutor
