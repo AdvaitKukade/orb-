@@ -18,8 +18,6 @@ orbs:
         executor: specialthingsexecutor
         steps:
           - dospecialthings 
-          - codecov/upload
-              path: ~/tmp/results.xml
 workflows:
   main: 
     jobs:
