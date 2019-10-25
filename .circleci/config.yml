@@ -20,4 +20,4 @@ orbs:
 workflows:
   main: 
     jobs:
-      - my-orb/myjob
+      - my-orb
