@@ -14,10 +14,9 @@ orbs:
         steps:
           - run: echo "Some Special Things"
     jobs:
-      myjob:
-        executor: specialthingsexecutor
-        steps:
-          - dospecialthings 
+       executor: specialthingsexecutor
+       steps:
+         - dospecialthings 
 workflows:
   main: 
     jobs:
