@@ -13,9 +13,9 @@ orbs:
       dospecialthings:
         steps:
           - run: |
-          a=10
-          b=10
-          c=a+b
+          a = 10
+          b = 10
+          c = a + b
           echo $c
     jobs:
       myjob:
