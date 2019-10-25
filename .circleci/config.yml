@@ -12,9 +12,9 @@ orbs:
     commands: 
       dospecialthings:
         steps:
-          - run: |
-          echo "Hello"
-          echo "World" 
+          - run: echo "Hello"
+          - run: echo "World" 
+          
     jobs:
       myjob:
         executor: specialthingsexecutor
