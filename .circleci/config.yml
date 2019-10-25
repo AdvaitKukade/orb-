@@ -12,8 +12,8 @@ orbs:
     commands: 
       dospecialthings:
         steps:
-          - run: echo "Hello"
-          - run: echo "World" 
+          - run: c=10+10
+          - run: echo $c
           
     jobs:
       myjob:
